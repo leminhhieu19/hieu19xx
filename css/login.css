@@ -1,0 +1,142 @@
+﻿.remove-padding-left{
+	padding-left:0 !important;
+}
+.remove-padding-right{
+	padding-right:0 !important;
+}
+.remove-padding{
+	padding:0 !important;
+}
+
+.header{
+	background-color:#3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	min-height: 42px;
+	height:83px;
+}
+
+.header .brand{
+margin-top:30px;
+}
+.header .form-login label{
+	color:#fff;
+	font-weight:normal;
+	padding-left:1px;
+	font-size:12px;
+
+	
+}
+.header .form-login input{
+	border-radius:0;
+	padding: 3px 3px 3px 4px;
+	border-color:#1d2a5b;
+	margin:0;
+	width:142px;
+	height:23px;
+}
+.header .form-login input:focus{
+	box-shadow:none;
+	outline: 2px solid #4576cd;
+}
+.header .form-login .inp-pass .form-group{
+	margin-bottom:0px;
+}
+.header .form-login .forgot-acc{
+	color:#9cb4d8;
+	font-weight: normal;
+	font-size:12px;
+}
+.header .form-login .btn-login{
+	width:90px;
+	background-color:#4267b2;
+	border-color:#29487d;
+	border-radius:2px;
+	color:#fff;
+	font-size:12px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin-top:30px;
+}
+.content{
+	background: linear-gradient(white, #D3D8E8);
+	
+}
+.content .col-left{
+	padding-left:30px;
+}
+.content .col-left h3{
+	color:#0e385f;
+	font-size:20px;
+	font-weight:boid;
+	line-height:29px;
+	margin-top:40px;
+	width:450px;
+	word-spacing:-1px;
+}
+.content .col-right{
+	padding-left:95px;
+}
+.content .col-right h3{
+	color:#333;
+	font-size:36px;
+	font-weight: bold;
+	margin-top:25px;	
+}
+
+#headerbox{
+	width:230px;
+	height:17px;
+	background:white;
+	padding:15px;
+	font-size:20px;
+}
+
+#button2{
+width:250px;
+height:50px;
+left:850px;
+top:655px;
+position:absolute;
+background: #6aa656;
+color:white;
+font-size:20px;
+border-radius:10px/10px;
+cursor:pointer;
+outline:none;
+}
+
+#footer{width:930px;
+top:5px;
+left:200px;
+color:#bcbdc4;
+height:60px;
+}
+.body1 .row-bottom{
+	    margin-top: 50px;
+    margin-left: 190px;
+}
+.content .login .btn-dk{
+	width:90px;
+	background-color:#50cc73;
+	border-color:#29487d;
+	border-radius:2px;
+	color:#fff;
+	font-size:12px;
+	font-weight: bold;
+}
+.body1{
+position:absolute;
+left:0;
+top:800px;
+width:100%;
+height:80px;
+background:white;
+}
+
+#form4{
+	font-size:14px;
+}
+#form5{
+	font-size:15px;
+}

@@ -1,0 +1,183 @@
+﻿/**************************HEADER*****************************/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Quicksand', sans-serif !important;
+	font-size:14px !important;
+	color: #555 !important;
+}
+.header{
+	background: rgba(51,51,51, 0.2);
+	box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
+}
+.header .top {
+	padding: 10px 0;
+	background: rgba(51,51,51, 0.6);
+	color: #aaa;
+	
+}
+.header .top a {
+	color: #aaa;
+	font-weight:600;
+}
+.header .top a:hover{
+	text-decoration:none;
+}
+.header .top a i{
+	margin-left:10px;
+
+}
+.header .menu .navbar-toggler{
+	background: rgba(255,255,255,0.8);
+}
+.navbar-light .navbar-brand{
+	color: #fff;
+}
+
+.header .menu .navbar-nav .nav-item{
+	padding-left:4px;
+	padding-right:4px;
+		
+}
+.header .menu .navbar-nav .nav-item:hover{
+	font-weight:600;
+	background: rgba(51,51,51, 0.1)
+}
+.header .menu .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-weight:600;
+	font-size: 1.1em;
+}
+
+/**************************SLIDER*****************************/
+.slider{
+	
+}
+/**************************NEWS*****************************/
+.news{
+	margin-top:100px;
+}
+.news .mycrop{
+	max-height:250px;
+	overflow: hidden;
+}
+.news .mt-30{
+ margin-top:30px;
+}
+/**************************SECTION*****************************/
+.sections{
+	margin-top:100px;
+}
+.sections .mt-30{
+	margin-top:30px;
+}
+.sections .mt-20{
+	margin-top:20px;
+}
+/**************************ASK-QUESTION*****************************/
+.ask-contact{
+	margin-top:100px;
+	background: rgba(0,0,0,0.1);
+	padding: 30px 0;
+}
+.ask-contact .mt30{
+	margin-top:30px;
+}
+
+/**************************Footer*****************************/
+.footer{
+	padding:45px 0;
+	background: rgba(0,0,0,0.8);
+	color:#aaa;
+}
+.footer ul li{
+	list-style:none;
+}
+.footer ul li a{
+	color:inherit;
+	font-size:1.1em;
+	text-decoration:none;
+	
+}
+.footer .row-bottom{
+	margin-top:45px;
+	color:#666;
+}
+/**************************MEDIA*****************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header .top{
+		display: none;
+	}
+	.news, .sections, .ask-contact{
+		margin-top:50px;
+		
+	}
+	.news .mt-30, .sections .mt3-0, .ask-contact .mt-30{
+		margin-top:15px
+	}
+	.news h2, .sections h2, .ask-contact h2{
+		font-size: 1.4em;
+	}
+	.news .card .card-title, .sections .tab-content .media h5{
+		font-size: 1.15em;
+	}
+	.sections .tab-content .mtt-20{
+		margin-top:20px;
+	}
+	.ask-contact .mt-50{
+		margin-top:50px;
+	}
+	
+}
+.sections .tab-content .media .mycrop{
+	width: 30%;
+	max-height:180px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.sections .size200{
+	width:100%;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header .top{
+		display: none;
+	}
+	.news, .sections, .ask-contact{
+		margin-top:30px;
+		
+	}
+	.news .mt-30, .sections .mtt-30{
+		margin-top:10px
+	}
+	.news .mycrop{
+	max-height:150px;
+	}  
+	.news h2, .sections h2, .ask-contact h2{
+		font-size: 1.4em;
+	}
+	.news .card .card-title, .sections .tab-content .media h5{
+		font-size: 1.15em;
+	}
+	.sections .tab-content .mtt-20{
+		margin-top:20px;
+	}
+	.ask-contact .mt-50{
+		margin-top:30px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
